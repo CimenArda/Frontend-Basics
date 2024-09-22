@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.kabuk {
+    background-color: #ccc;
+    width: 100%;
+
+    height: max-content;
+}
+
+
+form {
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid black;
+}
+button{
+    width: 100%;
+    background-color:greenyellow;
+    color: black;
+}
+
+p {
+    text-align: center;
+}
+

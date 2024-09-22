@@ -1,0 +1,45 @@
+h4 {
+    font-size: 65px;
+    background-color: blue;
+}
+
+.navbar{
+
+    height: 55px;
+    background-color: cadetblue;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+}
+h2{
+    color: white;
+    font-weight: bolder;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+    
+}
+
+ul li {
+    padding: 0 9px;
+    transition: 0.4s;
+
+}
+ul li:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+
+ul li a {
+    color: white;
+    text-decoration: none;
+
+}

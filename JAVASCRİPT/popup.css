@@ -1,0 +1,51 @@
+button{
+    background-color: tomato;
+    padding: 6px;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.kapsayiciPop {
+
+    background-color: #ccc;
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    display: block;
+    display: none;
+
+}
+
+.icPop{
+
+    max-width: 350px;
+    background-color: white;
+    height: 250px;
+    margin: auto;
+    margin-top: 4rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+p{
+    padding: 15px;
+    align-items: center;
+
+}
+.kapa{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}

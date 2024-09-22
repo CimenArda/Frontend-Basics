@@ -1,0 +1,38 @@
+.urun{
+    width: 32%;
+    border: 2px solid black;
+    text-align: center;
+}
+h4{
+    display:none;
+}
+.urunresim{
+    position: relative;
+
+}
+.urunresim span {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    
+}
+
+.katalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:768px){
+    .katalog{
+        flex-direction: column;
+    }
+    .urun{
+        width: 100%;
+    }
+    h4{
+        display: block;
+    }
+}

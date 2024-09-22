@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    padding: 3rem;
+    background-color: #f1f1f1f1;
+    border-top: 4px solid #ccc;
+
+    justify-content: center;
+    
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.footer ul li {
+    padding: 3rem;
+}
+
+.footer a:hover{
+    color: blueviolet;
+}

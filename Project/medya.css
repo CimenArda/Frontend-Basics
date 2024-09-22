@@ -1,0 +1,25 @@
+.medya{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+video{
+
+    width: 40rem;
+    margin: 12px;
+    padding: 12px;
+}
+
+.videolarimiz{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid #ccc;
+
+}
+
+body{
+
+    background-image: url(/assets-cached.jpg);
+}

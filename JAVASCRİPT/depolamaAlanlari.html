@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+*{
+    padding: 0;
+}
+
+        .main_block {
+            display: flex;
+            padding: 3px;
+            background-color: #ccc;
+            max-width: max-content;
+            justify-content: center;
+
+        }
+
+        .buttons{
+            padding: 12px;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+        }
+
+        button{
+            width: 150px;
+            margin: 0 2px;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+<div class="main_block">
+    <div class="isim">
+        <label for="isim">İsim</label>
+        <input class="anahtar" type="text">
+    </div>
+
+    <div class="sinif">
+        <label for="sinif">Sınıf</label>
+        <input class="deger" type="text">
+    </div>
+
+    <div class="sil">
+        <label for="sil">Sil</label>
+        <input class="sil_" type="text">
+    </div>
+</div>
+
+<div class="buttons">
+    <button class="add" style="background-color: green; color: white; padding: 3px;">Ekle</button>
+    <button class="delete" style="background-color: red; color: white; padding: 3px;">Sil</button>
+    <button class="clear" style="background-color: blue; color: white; padding: 3px;">Temizle</button>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="depolamaAlanlari.js"></script>
+</body>
+</html>
